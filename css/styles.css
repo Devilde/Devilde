@@ -1,0 +1,26 @@
+﻿body {
+	background-color: #FFF5E0;
+}
+
+.section-all {
+	width:1000px;
+	border:1px solid red;
+	margin:2% auto;
+	text-align: center;
+}
+
+.head-title {
+	font-family: "Palace Script MT";
+	color: #C91300;
+	font-size: 60px;
+}
+
+.description {
+	border: 1px solid red;
+	padding-top: 5%;
+}
+
+	.description p{
+		font-size:18px;
+		font-family: "Yu Gothic Light";
+	}

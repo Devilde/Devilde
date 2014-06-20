@@ -4,7 +4,6 @@
 
 .section-all {
 	width:1000px;
-	border:1px solid red;
 	margin:2% auto;
 	text-align: center;
 }
@@ -16,7 +15,6 @@
 }
 
 .description {
-	border: 1px solid red;
 	padding-top: 5%;
 }
 
@@ -24,3 +22,8 @@
 		font-size:18px;
 		font-family: "Yu Gothic Light";
 	}
+
+.mail-link {
+	color: #C91300;
+	font-style: italic;
+}

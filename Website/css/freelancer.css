@@ -173,6 +173,8 @@ section h2 {
 section.success {
     color: #fff;
     background: #18bc9c;
+    border:2px solid black;
+    padding: 10% 0 20% 0;
 }
 
 @media(max-width:767px) {
@@ -246,8 +248,9 @@ section.success {
 
 
 /*----------------Syles For Portfolio-----------------------------------*/
-#portfolio .main {
-	padding: 10% 0 25% 0;
+#portfolio  {
+	border:2px solid red;
+	padding: 10% 0 20% 0;
 }
 
 .ch-item {

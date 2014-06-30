@@ -16,7 +16,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #B21100;
 }
 
 h1,
@@ -56,7 +56,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #B21100;
 }
 
 hr.star-primary {
@@ -98,6 +98,10 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+}
+
+.navbar-brand{
+	color: red;
 }
 
 @media(min-width:768px) {
@@ -172,9 +176,12 @@ section h2 {
 
 section.success {
     color: #fff;
-    background-image: url('../img/vita-bg.png');
+    /*background-image: url('../img/vita-bg.jpg');
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: cover;*/
+    background-color: #1A1A1A;
+    background-image: url('../img/vita-bg.png');
+    background-repeat: repeat-x;
     padding: 10% 0 20% 0;
 }
 
@@ -251,12 +258,15 @@ section.success {
 /*----------------Syles For Portfolio-----------------------------------*/
 #portfolio  {
 	padding: 10% 0 20% 0;
+	background-image:url('../img/black-bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .ch-item {
 	width: 100%;
 	height: 100%;
-	border-radius: 30%;
+	border-radius: 50%;
 	position: relative;
 	cursor: default;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
@@ -265,10 +275,10 @@ section.success {
 .ch-thumb {
 	width: 100%;
 	height: 100%;
-	border-radius: 30%;
+	border-radius: 50%;
 	overflow: hidden;
 	position: absolute;
-	box-shadow: inset 0 0 0 15px rgba(255,255,255, 0.5);
+	box-shadow: inset 0 0 0 8px rgba(26,26,26, 0.8);
 	
 	-webkit-transform-origin: 95% 40%;
 	-moz-transform-origin: 95% 40%;
@@ -288,7 +298,7 @@ section.success {
 	width: 8px;
 	height: 8px;
 	position: absolute;
-	border-radius: 30%;
+	border-radius: 50%;
 	top: 40%;
 	left: 95%;
 	margin: -4px 0 0 -4px;
@@ -299,7 +309,7 @@ section.success {
 	background: -o-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
 	background: -ms-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
 	background: radial-gradient(ellipse at center, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
-	box-shadow: 0 0 1px rgba(255,255,255,0.9);
+	box-shadow: 0 0 3px rgba(0,0,0,0.9);
 }
 
 .ch-img-1 { 
@@ -327,10 +337,10 @@ section.success {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	border-radius: 30%;
+	border-radius: 50%;
 	overflow: hidden;
-	background-color: rgba(40,0,0,0.9);
-	box-shadow: inset 0 0 0 5px rgba(0,0,0,0.05);
+	background-color: rgba(46,46,46,0.6);
+	box-shadow: inset 0 0 0 5px rgba(46,46,46,0.1);
 }
 
 .ch-info h3 {
@@ -409,7 +419,7 @@ section.success {
 	background: rgba(255,255,255,0.5);
 }
 .ch-item:hover .ch-thumb {
-	box-shadow: inset 0 0 0 15px rgba(255,255,255, 0.5), 0 1px 3px rgba(0,0,0,0.2);
+	box-shadow: inset 0 0 0 8px rgba(26,26,26, 0.8), 0 1px 3px rgba(0,0,0,0.2);
 	-webkit-transform: rotate(-110deg);
 	-moz-transform: rotate(-110deg);
 	-o-transform: rotate(-110deg);
@@ -472,7 +482,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #B21100;
     background: #fff;
 }
 
@@ -525,7 +535,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #B21100;
 }
 
 form .row:first-child .floating-label-form-group {

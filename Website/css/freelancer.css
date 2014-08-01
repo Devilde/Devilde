@@ -32,7 +32,7 @@ h6 {
 
 hr.star-light,
 hr.star-primary {
-    margin: 25px auto 30px;
+    margin: 55px auto 40px;
     padding: 0;
     max-width: 250px;
     border: 0;
@@ -55,8 +55,7 @@ hr.star-light {
 }
 
 hr.star-light:after {
-    color: #fff;
-    background-color: #B21100;
+    color: #B21100;
 }
 
 hr.star-primary {
@@ -269,7 +268,7 @@ section.success {
 	border-radius: 50%;
 	position: relative;
 	cursor: default;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	box-shadow: 0 1px 3px rgba(84,8,0,0.5);
 }
 
 .ch-thumb {
@@ -278,7 +277,7 @@ section.success {
 	border-radius: 50%;
 	overflow: hidden;
 	position: absolute;
-	box-shadow: inset 0 0 0 8px rgba(26,26,26, 0.8);
+	box-shadow: inset 0 0 0 1px rgba(84,8,0, 0.9);
 	
 	-webkit-transform-origin: 95% 40%;
 	-moz-transform-origin: 95% 40%;
@@ -309,7 +308,7 @@ section.success {
 	background: -o-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
 	background: -ms-radial-gradient(center, ellipse cover, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
 	background: radial-gradient(ellipse at center, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%);
-	box-shadow: 0 0 3px rgba(0,0,0,0.9);
+	box-shadow: 0 0 3px rgba(84,8,0,0.9);
 }
 
 .ch-img-1 { 
@@ -419,7 +418,7 @@ section.success {
 	background: rgba(255,255,255,0.5);
 }
 .ch-item:hover .ch-thumb {
-	box-shadow: inset 0 0 0 8px rgba(26,26,26, 0.8), 0 1px 3px rgba(0,0,0,0.2);
+	box-shadow: inset 0 0 0 1px rgba(48,8,0, 0.9), 0 1px 3px rgba(0,0,0,0.2);
 	-webkit-transform: rotate(-110deg);
 	-moz-transform: rotate(-110deg);
 	-o-transform: rotate(-110deg);
@@ -434,8 +433,6 @@ section.success {
 	-ms-transform: translateX(0px) rotate(0deg);
 	transform: translateX(0px) rotate(0deg);
 }
-
-
 
 .ch-grid {
 	margin: 20px 0 0 0;
